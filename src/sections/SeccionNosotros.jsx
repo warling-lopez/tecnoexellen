@@ -1,3 +1,5 @@
+import StarRating from "../components/StarRating";
+
 const SeccionNosotros = () => {
   return (
     <div className="flex max-md:flex-col justify-around p-2">
@@ -32,7 +34,7 @@ const SeccionNosotros = () => {
         />
         <h2 className="text-2xl text-gray-500">Juansito</h2>
         <p className="p-2 rounded-xl text-gray-900 text-center">
-          Excelente Servicio, ¡me encanto!
+            Excelente Servicio, ¡me encanto!
         </p>
         
       </div>
