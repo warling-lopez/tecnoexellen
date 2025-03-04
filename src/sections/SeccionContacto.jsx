@@ -2,7 +2,7 @@ import ServiceCard from "../components/ServiceCard";
 
 const SeccionContacto = () => {
   return (
-    <div>
+    <div id="servicios">
       <h2 className="font-semibold text-2xl">¿Te interesan nuestros servicios?</h2>
       {/* Service list */}
       <div className="flex flex-col gap-5 p-3">

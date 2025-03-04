@@ -3,8 +3,7 @@ import React, { useState } from 'react'
 function Navegador() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  return (
-    <nav className="w-[95%] bg-white shadow-lg">
+  return (<nav className="w-[95%] left-1/2 transform -translate-x-1/2 top-2 fixed bg-white shadow-lg rounded-xl ">  
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo - Lado Izquierdo */}
@@ -20,19 +19,19 @@ function Navegador() {
           <div className="hidden md:flex space-x-4">
             <a 
               href="#inicio" 
-              className="text-gray-700 hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+              className="text-gray-700 hover:bg-blue-50 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
             >
               Inicio
             </a>
             <a 
               href="#nosotros" 
-              className="text-gray-700 hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+              className="text-gray-700 hover:bg-blue-50 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
             >
               Nosotros
             </a>
             <a 
               href="#servicios" 
-              className="text-gray-700 hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+              className="text-gray-700 hover:bg-blue-50 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
             >
               Servicios
             </a>
@@ -77,19 +76,19 @@ function Navegador() {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <a 
                 href="#inicio" 
-                className="text-gray-700 hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-700 hover:bg-blue-50 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
               >
                 Inicio
               </a>
               <a 
                 href="#nosotros" 
-                className="text-gray-700 hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-700 hover:bg-blue-50 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
               >
                 Nosotros
               </a>
               <a 
                 href="#servicios" 
-                className="text-gray-700 hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-700 hover:bg-blue-50 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
               >
                 Servicios
               </a>

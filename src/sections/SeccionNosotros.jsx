@@ -1,6 +1,6 @@
 const SeccionNosotros = () => {
   return (
-    <div className="flex justify-around p-2">
+    <div id="nosotros" className="flex justify-around p-2">
       <div className="p-3 gap-3 flex flex-1 flex-col">
         <h2 className="text-gray-800 text-2xl font-bold">Sobre Nosotros</h2>
         <hr />

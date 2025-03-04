@@ -2,9 +2,9 @@ import Navegador from "../components/navegador"
 
 
 function Inicio() {
-  return (<>
+  return (<div id="inicio">
     <Navegador/>
-  </>)
+  </div>)
 }
 
 export default Inicio
