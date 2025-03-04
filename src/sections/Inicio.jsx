@@ -56,7 +56,7 @@ function Inicio() {
 
             <button 
               type="submit"
-              className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition duration-300"
+              className="w-full bg-blue-900 text-white py-2 rounded-md hover:bg-blue-950 transition duration-300"
             >
               Enviar Mensaje
             </button>
