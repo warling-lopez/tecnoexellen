@@ -66,7 +66,7 @@ function Inicio() {
         {/* Contenedor de Logo - Solo visible en escritorio */}
         <div className="hidden md:block w-1/3 flex justify-center">
           <img 
-            src="/public/logo.png" 
+            src="/logo.png" 
             alt="Logo" 
             className="h-96 w-96 rounded-full object-cover shadow-2xl"
           />
