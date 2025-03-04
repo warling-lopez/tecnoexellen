@@ -12,7 +12,7 @@ function Inicio() {
           {/* Logo en versión móvil (solo visible en móviles) */}
           <div className="md:hidden flex justify-center mb-6">
             <img 
-              src="/logo.png" 
+              src="/logo-NoFondo.png" 
               alt="Logo" 
               className="h-24 w-24 rounded-full object-cover"
             />
