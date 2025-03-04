@@ -1,9 +1,10 @@
-import React from 'react'
+import Navegador from "../components/navegador"
+
 
 function Inicio() {
-  return (
-    <div>Inicio</div>
-  )
+  return (<>
+    <Navegador/>
+  </>)
 }
 
 export default Inicio
