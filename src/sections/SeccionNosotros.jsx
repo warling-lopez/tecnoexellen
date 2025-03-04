@@ -32,8 +32,9 @@ const SeccionNosotros = () => {
         />
         <h2 className="text-2xl text-gray-500">Juansito</h2>
         <p className="p-2 rounded-xl text-gray-900 text-center">
-          Servicio excelente y recomendado, ¡me encanto!
+          Excelente Servicio, ¡me encanto!
         </p>
+        
       </div>
     </div>
   );
