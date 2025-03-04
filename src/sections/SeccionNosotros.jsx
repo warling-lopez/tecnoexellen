@@ -1,3 +1,5 @@
+import StarRating from "../components/StarRating";
+
 const SeccionNosotros = () => {
   return (
     <div className="flex max-md:flex-col justify-around p-2">
@@ -34,6 +36,7 @@ const SeccionNosotros = () => {
         <p className="p-2 rounded-xl text-gray-900 text-center">
           Servicio excelente y recomendado, ¡me encanto!
         </p>
+        <StarRating />
       </div>
     </div>
   );
