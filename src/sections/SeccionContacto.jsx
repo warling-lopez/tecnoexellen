@@ -75,7 +75,7 @@ const SeccionContacto = () => {
                        text-lg font-bold tracking-wide 
                        hover:bg-blue-700 transition-colors duration-300
                        flex items-center justify-center mx-auto gap-3
-                       shadow-md hover:shadow-xl group"
+                       shadow-md hover:shadow-xl group cursor-pointer"
           >
             <Send className="group-hover:translate-x-1 transition-transform" size={24} />
             Contáctanos Ahora

@@ -12,7 +12,7 @@ function Inicio() {
           {/* Logo en versión móvil (solo visible en móviles) */}
           <div className="md:hidden flex justify-center mb-6">
             <img 
-              src="/public/logo.png" 
+              src="/Logo-NoFondo.png" 
               alt="Logo" 
               className="h-24 w-24 rounded-full object-cover"
             />
@@ -56,7 +56,7 @@ function Inicio() {
 
             <button 
               type="submit"
-              className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition duration-300"
+              className="w-full bg-blue-900 text-white py-2 rounded-md hover:bg-blue-950 transition duration-300"
             >
               Enviar Mensaje
             </button>
@@ -64,11 +64,11 @@ function Inicio() {
         </div>
 
         {/* Contenedor de Logo - Solo visible en escritorio */}
-        <div className="hidden md:block w-1/3 flex justify-center">
+        <div className="hidden md:block w-fit h-fit justify-center">
           <img 
-            src="/public/logo.png" 
+            src="/Logo-NoFondo.png" 
             alt="Logo" 
-            className="h-96 w-96 rounded-full object-cover shadow-2xl"
+            className="object-cover"
           />
         </div>
       </div>

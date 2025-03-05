@@ -1,7 +1,7 @@
 {
   "name": "tecnoexellen",
   "private": true,
-  "version": "0.0.1",
+  "version": "1.1.1PS03",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
