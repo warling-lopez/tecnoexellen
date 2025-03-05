@@ -5,7 +5,7 @@ function Inicio() {
     <Navegador/>
 
     {/* Full width container with maximum width and centered */}
-    <div className="w-[100%] px-4 py-12 bg-gray-100 mt-20">
+    <div className="w-[100%] px-4 py-12 bg-white mt-20">
       <div className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto">
         {/* Contenedor de Texto */}
         <div className="md:w-1/2 md:pr-12">
