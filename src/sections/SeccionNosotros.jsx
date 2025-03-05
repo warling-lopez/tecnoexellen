@@ -36,7 +36,7 @@ const SeccionNosotros = () => {
         <p className="p-2 rounded-xl text-gray-900 text-center">
             Excelente Servicio, ¡me encanto!
         </p>
-        
+        <StarRating />
       </div>
     </div>
   );
