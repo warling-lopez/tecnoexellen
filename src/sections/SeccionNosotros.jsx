@@ -7,7 +7,7 @@ const SeccionNosotros = () => {
         <h2 className="text-gray-800 text-2xl font-bold">Sobre Nosotros</h2>
         <hr />
         <h2 className="font-bold text-gray-700 text-xl">
-          ¿Qué es TecnoExcellen?
+          ¿Qué es TechnoExcellen?
         </h2>
         <p className="pl-5">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
@@ -16,7 +16,7 @@ const SeccionNosotros = () => {
           dolore, ratione unde!
         </p>
         <h2 className="font-bold text-gray-700 text-xl">
-          ¿Por qué elegir TecnoExcellen?
+          ¿Por qué elegir TechnoExcellen?
         </h2>
         <p className="pl-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis illum
