@@ -45,7 +45,7 @@ function Navegador() {
               className="bg-blue-900 text-white px-4 py-2 rounded-md 
                 transition-all duration-300 ease-in-out 
                 hover:bg-blue-950 hover:scale-105 hover:shadow-lg 
-                active:scale-95"
+                active:scale-95 cursor-pointer"
             >
               Contactar
             </button>

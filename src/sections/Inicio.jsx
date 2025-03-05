@@ -5,8 +5,8 @@ function Inicio() {
     <Navegador/>
 
     {/* Full width container with maximum width and centered */}
-    <div className="w-[100%] px-4 py-12 bg-gray-100 mt-20">
-      <div className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto">
+    <div className="w-full px-4 py-12 bg-gray-100 mt-20">
+      <div className="flex flex-col md:flex-row items-center justify-between mx-auto">
         {/* Contenedor de Texto */}
         <div className="md:w-1/2 md:pr-12">
           {/* Logo en versión móvil (solo visible en móviles) */}
@@ -50,7 +50,7 @@ function Inicio() {
                 id="subject"
                 placeholder="Describe el motivo de tu contacto" 
                 rows="4"
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 resize-vertical"
+                className="w-full max-h-[250px] min-h-[100px] px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 resize-vertical"
               />
             </div>
 
