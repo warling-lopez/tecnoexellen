@@ -1,5 +1,3 @@
-import StarRating from "../components/StarRating";
-
 const SeccionNosotros = () => {
   return (
     <div className="flex max-md:flex-col justify-around p-2 bg-white shadow-lg">
@@ -13,7 +11,7 @@ const SeccionNosotros = () => {
             automatización, conectividad y seguridad para hogares y empresas.
             Nos enfocamos en ofrecer productos y servicios de alta calidad,
             garantizando confianza, eficiencia y bienestar a nuestros clientes a
-            través de la tecnología
+            través de la tecnología.
           </p>
         </div>
         <div className="bg-white rounded-lg py-2 px-5 hover:shadow-xl hover:bg-zinc-100 transition">
@@ -27,8 +25,12 @@ const SeccionNosotros = () => {
           </p>
         </div>
         <div className="bg-white rounded-lg py-2 px-5 hover:shadow-xl hover:bg-zinc-100 transition">
+        </div>
+      </div>
+      <hr className="border-l h-96 min-md:block hidden" />
+      <div className="flex flex-1 flex-col rounded-xl p-2 items-center text-black gap-2 ">
           <h2 className="font-bold text-gray-700 text-xl">Valores</h2>
-          <ul className="pl-5">
+          <ul className="pl-6 list-disc bg-white rounded-lg py-2 px-5 hover:shadow-xl hover:bg-zinc-100 transition">
             <li>
               Compromiso: Nos enfocamos en brindar un servicio confiable y
               adaptado a las necesidades de cada cliente.
@@ -41,21 +43,8 @@ const SeccionNosotros = () => {
               Responsabilidad: Actuamos con ética y transparencia en cada
               proyecto que desarrollamos.
             </li>
+            <li>Calidad: Ofrecemos productos y servicios de calidad.</li>
           </ul>
-        </div>
-      </div>
-      <hr className="border-l h-96 min-md:block hidden" />
-      <div className="flex flex-1 flex-col rounded-xl p-2 items-center text-black gap-2">
-        <img
-          className="rounded-full w-[200px] h-[200px] shadow-lg"
-          src="/OIP.jpeg"
-          alt=""
-        />
-        <h2 className="text-2xl text-gray-500">Juansito</h2>
-        <p className="p-2 rounded-xl text-gray-900 text-center">
-          Excelente Servicio, ¡me encanto!
-        </p>
-        <StarRating />
       </div>
     </div>
   );
