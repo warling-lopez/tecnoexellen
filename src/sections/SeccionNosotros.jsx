@@ -24,27 +24,31 @@ const SeccionNosotros = () => {
             tecnología, mejorando su calidad de vida y productividad.
           </p>
         </div>
-        <div className="bg-white rounded-lg py-2 px-5 hover:shadow-xl hover:bg-zinc-100 transition">
-        </div>
+        <div className="bg-white rounded-lg py-2 px-5 hover:shadow-xl hover:bg-zinc-100 transition"></div>
       </div>
       <hr className="border-l h-96 min-md:block hidden" />
       <div className="flex flex-1 flex-col rounded-xl p-2 items-center text-black gap-2 ">
-          <h2 className="font-bold text-gray-700 text-xl">Valores</h2>
-          <ul className="pl-6 list-disc bg-white rounded-lg py-2 px-5 hover:shadow-xl hover:bg-zinc-100 transition">
-            <li>
-              Compromiso: Nos enfocamos en brindar un servicio confiable y
-              adaptado a las necesidades de cada cliente.
-            </li>
-            <li>
-              Seguridad: Protegemos los espacios de nuestros clientes con
-              tecnología confiable y eficiente.
-            </li>
-            <li>
-              Responsabilidad: Actuamos con ética y transparencia en cada
-              proyecto que desarrollamos.
-            </li>
-            <li>Calidad: Ofrecemos productos y servicios de calidad.</li>
-          </ul>
+        <h2 className="font-bold text-gray-700 text-xl">Valores</h2>
+        <ul className="pl-6 list-disc bg-white rounded-lg py-2 px-5 hover:shadow-xl hover:bg-zinc-100 transition">
+          <li>
+            Compromiso: Nos comprometemos en brindar un servicio confiables y
+            soluciones adaptadas a las necesidades de cada cliente.
+          </li>
+          <li>
+            Seguridad: Protegemos los espacios de nuestros clientes con
+            tecnología confiable y eficiente.
+          </li>
+          <li>
+            Responsabilidad: Actuamos con ética y transparencia en cada proyecto
+            que desarrollamos.
+          </li>
+          <li>
+            Confiabilidad: Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Temporibus maxime animi atque et natus non, nesciunt quos
+            explicabo autem fuga veniam illo in facilis iste eius. Nam soluta
+            delectus ipsum!
+          </li>
+        </ul>
       </div>
     </div>
   );
