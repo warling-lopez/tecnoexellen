@@ -7,23 +7,15 @@ const SeccionNosotros = () => {
         <h2 className="text-gray-800 text-2xl font-bold">Sobre Nosotros</h2>
         <hr />
         <div className="bg-white rounded-lg py-2 px-5 hover:shadow-xl hover:bg-zinc-100 transition">
-          <h2 className="font-bold text-gray-700 text-xl">Misión</h2>
+          <h2 className="font-bold text-gray-700 text-xl">¿Qué es Technoexellen?</h2>
           <p className="pl-5">
-            Brindar soluciones tecnológicas innovadoras y personalizadas en
-            automatización, conectividad y seguridad para hogares y empresas.
-            Nos enfocamos en ofrecer productos y servicios de alta calidad,
-            garantizando confianza, eficiencia y bienestar a nuestros clientes a
-            través de la tecnología
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias mollitia. Suscipit odit voluptatum corporis ea repellat quas minima atque asperiores, labore voluptate consequatur doloribus eos at et ipsa velit.
           </p>
         </div>
         <div className="bg-white rounded-lg py-2 px-5 hover:shadow-xl hover:bg-zinc-100 transition">
-          <h2 className="font-bold text-gray-700 text-xl">Visión</h2>
+          <h2 className="font-bold text-gray-700 text-xl">¿Por qué deberia elegir Technoexellen?</h2>
           <p className="pl-5">
-            Ser la empresa líder en soluciones tecnológicas integrales,
-            reconocida por su compromiso con la innovación, la excelencia en el
-            servicio y la satisfacción del cliente. Aspiramos a transformar la
-            manera en que las personas y las empresas interactúan con la
-            tecnología, mejorando su calidad de vida y productividad.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eius quos, quo voluptas aliquid placeat repudiandae et nisi quaerat magnam cupiditate. Explicabo ex, saepe laudantium minus neque iste ut harum?
           </p>
         </div>
       </div>
