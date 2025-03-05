@@ -12,7 +12,7 @@ function Inicio() {
           {/* Logo en versión móvil (solo visible en móviles) */}
           <div className="md:hidden flex justify-center mb-6">
             <img 
-              src="/Logo-NoFondo.png" 
+              src="/TECHNOEXELLEN.png" 
               alt="Logo" 
               className="h-24 w-24 rounded-full object-cover"
             />
@@ -66,7 +66,7 @@ function Inicio() {
         {/* Contenedor de Logo - Solo visible en escritorio */}
         <div className="hidden md:block w-fit h-fit justify-center">
           <img 
-            src="/Logo-NoFondo.png" 
+            src="/TECHNOEXELLEN.png" 
             alt="Logo" 
             className="object-cover"
           />

@@ -12,7 +12,7 @@ function Navegador() {
           {/* Logo - Lado Izquierdo */}
           <div className="flex items-center">
             <img 
-              src="/Logo-NoFondo.png"  
+              src="/TECHNOEXELLEN.png"  
               alt="Logo" 
               className="h-20 items-center w-auto 
                 transition-transform duration-100 ease-in-out 

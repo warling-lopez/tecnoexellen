@@ -54,7 +54,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-wrap">
         <div className="w-full md:w-2/3 flex flex-col sm:flex-row">
           <FooterSection title="Información" items={informationLinks} />
-          <FooterSection title="Tecnoexellen" items={techLinks} />
+          <FooterSection title="Technoexellen" items={techLinks} />
           <div className="w-full sm:w-1/3 p-4 border-l border-zinc-400/30">
             <h3 className="font-semibold text-lg mb-3 text-white">Redes</h3>
             <hr className="border-zinc-400 mb-3" />
@@ -68,7 +68,7 @@ const Footer = () => {
 
         <div className="w-full md:w-1/3 flex justify-center items-center p-4">
           <img
-            src="/Logo-NoFondo.png"
+            src="/TECHNOEXELLEN.png"
             alt="Tecnoexellen Logo"
             className="max-w-[250px] object-contain"
           />
