@@ -3,9 +3,9 @@ import Navegador from "../components/navegador"
 function Inicio() {
   return (<div id="inicio">
     <Navegador/>
-
-    {/* Full width container with maximum width and centered */}
-    <div className="w-full px-4 py-12 bg-gray-100 mt-20">
+    <div className="justify-center max-w-[1320px] items-center flex w-full">
+      {/* Full width container with maximum width and centered */}
+    <div className="w-[80%] px-4 py-12 bg-gray-100 mt-16">
       <div className="flex flex-col md:flex-row items-center justify-between mx-auto">
         {/* Contenedor de Texto */}
         <div className="md:w-1/2 md:pr-12">
@@ -73,6 +73,9 @@ function Inicio() {
         </div>
       </div>
     </div>
+    </div>
+
+    
   </div>)
 }
 

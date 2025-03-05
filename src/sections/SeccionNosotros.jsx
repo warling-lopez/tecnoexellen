@@ -7,25 +7,23 @@ const SeccionNosotros = () => {
         <h2 className="text-gray-800 text-2xl font-bold">Sobre Nosotros</h2>
         <hr />
         <div className="bg-white rounded-lg py-2 px-5 hover:shadow-xl hover:bg-zinc-100 transition">
-          <h2 className="font-bold text-gray-700 text-xl">
-            ¿Qué es Technoexcellen?
-          </h2>
+          <h2 className="font-bold text-gray-700 text-xl">Misión</h2>
           <p className="pl-5">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            at, quos atque eos quas reprehenderit earum, laudantium, quibusdam
-            aspernatur totam provident! Recusandae ipsum minima alias quo optio
-            dolore, ratione unde!
+            Brindar soluciones tecnológicas innovadoras y personalizadas en
+            automatización, conectividad y seguridad para hogares y empresas.
+            Nos enfocamos en ofrecer productos y servicios de alta calidad,
+            garantizando confianza, eficiencia y bienestar a nuestros clientes a
+            través de la tecnología
           </p>
         </div>
         <div className="bg-white rounded-lg py-2 px-5 hover:shadow-xl hover:bg-zinc-100 transition">
-          <h2 className="font-bold text-gray-700 text-xl">
-            ¿Por qué elegir Technoexellen?
-          </h2>
+          <h2 className="font-bold text-gray-700 text-xl">Visión</h2>
           <p className="pl-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis illum
-            quaerat earum quibusdam dolore officia accusamus amet et sapiente
-            repudiandae deleniti, doloremque exercitationem. Odio quae dolorem
-            assumenda quisquam quos consectetur!
+            Ser la empresa líder en soluciones tecnológicas integrales,
+            reconocida por su compromiso con la innovación, la excelencia en el
+            servicio y la satisfacción del cliente. Aspiramos a transformar la
+            manera en que las personas y las empresas interactúan con la
+            tecnología, mejorando su calidad de vida y productividad.
           </p>
         </div>
       </div>
