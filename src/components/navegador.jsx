@@ -22,7 +22,7 @@ function Navegador() {
 
           {/* Menú Central - Visible solo en escritorio */}
           <div className="hidden md:flex space-x-4">
-            {['Contacto', 'Nosotros', 'Servicios'].map((item, index) => (
+            {['Inicio', 'Nosotros', 'Servicios'].map((item, index) => (
               <a 
                 key={item}
                 href={`#${item.toLowerCase()}`} 
