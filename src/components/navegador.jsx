@@ -37,6 +37,9 @@ function Navegador() {
                 {item}
               </a>
             ))}
+            <a href="https://google.com" target='_blank' className={`text-gray-700 px-3 py-2 rounded-md text-sm font-medium 
+                  transition-all duration-300 ease-in-out
+                  `}>Innovacion con realidad aumentada</a>
           </div>
 
           {/* Botón de Contacto - Visible solo en escritorio */}
