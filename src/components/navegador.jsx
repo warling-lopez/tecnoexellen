@@ -37,7 +37,7 @@ function Navegador() {
                 {item}
               </a>
             ))}
-            <a href="https://google.com" target='_blank' className={`text-gray-700 px-3 py-2 rounded-md text-sm font-medium 
+            <a href="https://www.apple.com/105/media/us/augmented-reality/2021/59406a83-52cd-42ce-96c1-fb9e9108411d/anim/hero/large.mp4" target='_blank' className={`text-gray-700 px-3 py-2 rounded-md text-sm font-medium 
                   transition-all duration-300 ease-in-out
                   `}>Innovacion con realidad aumentada</a>
           </div>
