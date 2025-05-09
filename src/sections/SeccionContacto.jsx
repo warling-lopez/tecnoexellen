@@ -3,19 +3,17 @@ import { Send, CheckCircle } from 'lucide-react';
 
 const services = [
   {
-    title: "Desarrollo Web Profesional",
+    title: "Instalación de equipo domóticos",
     description: "Soluciones digitales personalizadas optimizadas para rendimiento y conversión",
     features: [
-      "Diseño responsivo",
-      "Optimización SEO",
-      "Integración de sistemas"
+      "Asesoria de equipos",
+      "Instalación domótica completa",
     ]
   },
   {
     title: "Consultoría Tecnológica",
     description: "Estrategias de transformación digital adaptadas a tu negocio",
     features: [
-      "Análisis de infraestructura",
       "Recomendaciones de mejora",
       "Implementación de soluciones"
     ]
